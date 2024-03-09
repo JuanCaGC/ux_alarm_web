@@ -5,9 +5,20 @@ import { BackIcon } from './BackIcon';
 import { UserIcon } from  './UserIcon/UserIcon';
 import { CalendarIcon } from './CalendarIcon';
 import { ProjectsIcon } from './ProjectsIcon';
+import { DashIcon } from './DashIcon';
+import { MenuIcon } from './MenuIcon';
+import { useState } from 'react';
+import ListaProyectos from './ListaProyectos/ListaProyectos';
 
 
 function Proyectos() {
+    const [navExpanded, setNavExpanded] = useState(true);
+
+    const toggleNav = () => {
+        setNavExpanded(!navExpanded);
+        console.log(navExpanded);
+    };
+
     return (
         <div style={{display: 'flex', flexDirection: 'column'}}>
             <Row className='header_general'>
@@ -22,19 +33,21 @@ function Proyectos() {
                 </Col>
             </Row>
             <Row className='rowContainer'>
-                <Col>
-                    <Navbar expand="lg">
+                <Col className='menuColumn'>
+                    <MenuIcon onClick={toggleNav} />
+                    <Navbar className='navMenu' expand="lg" style={{display: navExpanded ? 'block' : 'none'}}>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className='menu'>
-                                <Nav.Link href="#calendar"  className ='menuItem' style={{color:'#EC6449'}}><CalendarIcon className='calendarIcon'></CalendarIcon> Calendario</Nav.Link>
+                                <Nav.Link href="#"  className ='menuItem' style={{color:'#EC6449'}}><CalendarIcon className='iconComponent'></CalendarIcon> Calendario</Nav.Link>
                                 <Nav.Link href="#" className = 'menuItem' style={{color:'#EC6449'}}><ProjectsIcon></ProjectsIcon> Proyectos</Nav.Link>
+                                <Nav.Link href="#" className = 'menuItem' style={{color:'#EC6449'}}><DashIcon></DashIcon> Informe</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
                 </Col>
                 <Col>
-                    {/* Content goes here */}
+                   <ListaProyectos></ListaProyectos>
                 </Col>
             </Row>
         </div>

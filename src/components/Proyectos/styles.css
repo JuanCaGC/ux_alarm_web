@@ -52,21 +52,46 @@ body{
 .rowContainer {
     position: relative;
     top: 9.625rem;
+    height: 81%;
+}
+
+.menuColumn{
+    border: 1px solid #EC6449;
+    border-top: none;
+    align-items: center;
+}
+
+.menuIcon{
+    align-self: center;
+    cursor: pointer;
+    width: 108%;
+    left: 50%;
+}
+.menuIcon:hover {
+    background-color: #333; 
+    color: #333; 
 }
 
 .menu {
-    padding: 0.5rem 0.5rem ;
+    padding: 0rem 0.5rem ;
     display: flex !important;
     flex-direction: column !important;
 }
 
+.navMenu{
+    padding: 0rem 0.4rem ;
+}
 .menuItem{
     padding: 0.5rem 0.5rem ;
     display: flex !important;
     flex-direction: column !important;
     align-items: center;
     font-family: "Inter", sans-serif;
-    line-height: 32px;
-    font-size: 24px;
+    line-height: 20px;
+    font-size: 20px;
     font-weight: 400;
+}
+.menuItem:hover {
+    background-color: #333; 
+    color: #333; 
 }

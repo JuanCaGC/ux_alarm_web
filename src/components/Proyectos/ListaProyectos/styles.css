@@ -1,0 +1,88 @@
+/* ListaProyectos.css */
+.containerLista {
+    padding: 0rem  2rem;
+    width: 72.5rem !important;
+}
+
+.encabezado{
+    border-bottom: #EC6449;
+    margin-right: 15rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.headAcciones{
+    text-align: right;
+    padding-right: 3rem !important;
+}
+th{
+    background-color: #333333 !important;
+    color: #fff !important;
+}
+
+td {
+    background-color: #433E3F !important;
+    color: #fff !important;
+}
+
+.actions {
+    display: flex ;
+    justify-content: flex-end;
+    padding-right: 3rem !important;
+}
+
+.filaProyecto{
+    width: 100% !important;
+    border: 1px solid #EC6449;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+
+.labelFiltro{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+
+
+.inputFiltro{
+    width: 100% !important;
+    border: 1px solid #CCCCCC;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: #999999;
+    background: none;
+    border-radius: 4;
+
+}
+
+.inputFiltro:focus {
+    border: 1px solid #CCCCCC;
+    outline: none;
+    box-shadow: none;
+    background: none;
+    color: #CCCCCC; 
+    caret-color: #CCCCCC;
+}
+
+.colB {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.botonFiltro{
+    background: none;
+    border: none;
+}
+
+.botonFiltro:hover{
+    cursor: pointer;
+    background: #333333;
+}

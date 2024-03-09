@@ -1,0 +1,11 @@
+import React, { SVGProps } from 'react';
+
+const CleanIcon = (props: SVGProps<SVGSVGElement>) => (
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 27.5H37.5V7.5C37.5 4.75 35.25 2.5 32.5 2.5H27.5C24.75 2.5 22.5 4.75 22.5 7.5V27.5H20C13.1 27.5 7.5 33.1 7.5 40V57.5H52.5V40C52.5 33.1 46.9 27.5 40 27.5ZM27.5 7.5H32.5V27.5H27.5V7.5ZM47.5 52.5H42.5V45C42.5 43.625 41.375 42.5 40 42.5C38.625 42.5 37.5 43.625 37.5 45V52.5H32.5V45C32.5 43.625 31.375 42.5 30 42.5C28.625 42.5 27.5 43.625 27.5 45V52.5H22.5V45C22.5 43.625 21.375 42.5 20 42.5C18.625 42.5 17.5 43.625 17.5 45V52.5H12.5V40C12.5 35.875 15.875 32.5 20 32.5H40C44.125 32.5 47.5 35.875 47.5 40V52.5Z" fill="#EC6449"/>
+</svg>
+
+);
+
+const Memo = React.memo(CleanIcon);
+export { Memo as CleanIcon };
