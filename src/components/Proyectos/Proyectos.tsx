@@ -9,29 +9,25 @@ import { BuildingBlocksStateLayer1Enabl } from './BuildingBlocksStateLayer1Enabl
 import { Calendar_month } from './Calendar_month/Calendar_month';
 import { Cleaning_services } from './Cleaning_services/Cleaning_services';
 import { Divider } from './Divider/Divider';
-import { DividerIcon } from './DividerIcon';
+import { FAB_StyleTertiaryStateEnabled } from './FAB_StyleTertiaryStateEnabled/FAB_StyleTertiaryStateEnabled';
 import { Home } from './Home/Home';
 import { HorizontalFullWidth } from './HorizontalFullWidth/HorizontalFullWidth';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
+import { IconButton_StyleStandardStateE } from './IconButton_StyleStandardStateE/IconButton_StyleStandardStateE';
+import { IconsMenu_24px } from './IconsMenu_24px/IconsMenu_24px';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
 import { Keyboard_backspace } from './Keyboard_backspace/Keyboard_backspace';
 import { ListItemProyecto } from './ListItemProyecto/ListItemProyecto';
-import { NavigationRail_AlignmentTop } from './NavigationRail_AlignmentTop/NavigationRail_AlignmentTop';
 import classes from './Proyectos.module.css';
 import { Search } from './Search/Search';
 import { TextField_StyleOutlinedStateEn } from './TextField_StyleOutlinedStateEn/TextField_StyleOutlinedStateEn';
 import { Vector } from './Vector/Vector';
-import { VectorIcon2 } from './VectorIcon2';
-import { VectorIcon3 } from './VectorIcon3';
-import { VectorIcon } from './VectorIcon';
+import { VectorIcon2 } from './VectorIcon2.js';
+import { VectorIcon3 } from './VectorIcon3.js';
+import { VectorIcon } from './VectorIcon.js';
 
 interface Props {
   className?: string;
   hide?: {
-    fABElevationOverride?: boolean;
-    segment4?: boolean;
-    segment5?: boolean;
-    segment6?: boolean;
-    segment7?: boolean;
     labelText?: boolean;
     supportingText?: boolean;
     labelText2?: boolean;
@@ -44,122 +40,117 @@ interface Props {
     supportingText5?: boolean;
   };
 }
-/* @figmaId 38:1400 */
+/* @figmaId 1:4670 */
 export const Proyectos: FC<Props> = memo(function Proyectos(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.pROYECTOSCOMPLETADOS}>PROYECTOS COMPLETADOS</div>
-      <Divider
-        swap={{
-          divider: <DividerIcon className={classes.icon} />,
-        }}
-      />
-      <NavigationRail_AlignmentTop
-        className={classes.navigationRail}
-        classes={{
-          iconsMenu_24px: classes.iconsMenu_24px,
-          stateLayer: classes.stateLayer,
-          container: classes.container,
-          menu: classes.menu,
-          menuFab: classes.menuFab,
-          stateLayer2: classes.stateLayer3,
-          container2: classes.container3,
-          segment2: classes.segment2,
-          stateLayer3: classes.stateLayer4,
-          container3: classes.container4,
-          segment3: classes.segment3,
-          destinations: classes.destinations,
-        }}
-        swap={{
-          icon: <IconsMenu_24pxIcon className={classes.icon2} />,
-          segment1: (
-            <BuildingBlocksSegment_ActiveFa
-              className={classes.segment1}
-              classes={{ stateLayer: classes.stateLayer2, container: classes.container2 }}
-              swap={{
-                icon: (
-                  <Home
-                    className={classes.icon4}
-                    swap={{
-                      home: (
-                        <Calendar_month
-                          className={classes.calendar_month}
-                          swap={{
-                            vector: <VectorIcon className={classes.icon3} />,
-                          }}
-                        />
-                      ),
-                    }}
-                  />
-                ),
-              }}
-              text={{
-                label: (
-                  <div className={classes.label}>
-                    <p className={classes.labelWrapper}>
-                      <span className={classes.label2}>Cale</span>
-                      <span className={classes.label3}>n</span>
-                      <span className={classes.label4}>dario</span>
-                    </p>
-                  </div>
-                ),
-              }}
-            />
-          ),
-          icon2: (
-            <Assignment
-              className={classes.icon6}
-              swap={{
-                vector: <VectorIcon2 className={classes.icon5} />,
-              }}
-            />
-          ),
-          icon3: (
-            <Assessment
-              className={classes.icon8}
-              swap={{
-                vector: <VectorIcon3 className={classes.icon7} />,
-              }}
-            />
-          ),
-        }}
-        hide={{
-          fABElevationOverride: true,
-          segment4: true,
-          segment5: true,
-          segment6: true,
-          segment7: true,
-        }}
-        text={{
-          label: (
-            <div className={classes.label5}>
-              <p className={classes.labelWrapper2}>
-                <span className={classes.label6}>Proyec</span>
-                <span className={classes.label7}>t</span>
-                <span className={classes.label8}>os</span>
-              </p>
+      <Divider />
+      <div className={classes.navigationRail}>
+        <div className={classes.menuFab}>
+          <IconButton_StyleStandardStateE
+            className={classes.menu}
+            classes={{ stateLayer: classes.stateLayer, container: classes.container }}
+            swap={{
+              icon: (
+                <IconsMenu_24px
+                  className={classes.iconsMenu_24px}
+                  swap={{
+                    icon: <IconsMenu_24pxIcon className={classes.icon} />,
+                  }}
+                />
+              ),
+            }}
+          />
+        </div>
+        <div className={classes.destinations}>
+          <div className={classes.segment1}>
+            <div className={classes.container4}>
+              <div className={classes.stateLayer5}>
+                <Home
+                  className={classes.icon5}
+                  swap={{
+                    home: (
+                      <Calendar_month
+                        className={classes.calendar_month}
+                        swap={{
+                          vector: <VectorIcon className={classes.icon4} />,
+                        }}
+                      />
+                    ),
+                  }}
+                />
+              </div>
             </div>
-          ),
-          label2: (
             <div className={classes.label9}>
               <p className={classes.labelWrapper3}>
-                <span className={classes.label10}>Inf</span>
-                <span className={classes.label11}>o</span>
-                <span className={classes.label12}>rme</span>
+                <span className={classes.label10}>Cale</span>
+                <span className={classes.label11}>n</span>
+                <span className={classes.label12}>dario</span>
               </p>
             </div>
-          ),
-        }}
-      />
+          </div>
+          <BuildingBlocksSegment_ActiveFa
+            className={classes.segment2}
+            classes={{ stateLayer: classes.stateLayer3, container: classes.container2 }}
+            swap={{
+              icon: (
+                <Assignment
+                  className={classes.icon7}
+                  swap={{
+                    vector: <VectorIcon2 className={classes.icon6} />,
+                  }}
+                />
+              ),
+            }}
+            text={{
+              label: (
+                <div className={classes.label}>
+                  <p className={classes.labelWrapper}>
+                    <span className={classes.label2}>Proyec</span>
+                    <span className={classes.label3}>t</span>
+                    <span className={classes.label4}>os</span>
+                  </p>
+                </div>
+              ),
+            }}
+          />
+          <BuildingBlocksSegment_ActiveFa
+            className={classes.segment3}
+            classes={{ stateLayer: classes.stateLayer4, container: classes.container3 }}
+            swap={{
+              icon: (
+                <Assessment
+                  className={classes.icon9}
+                  swap={{
+                    vector: <VectorIcon3 className={classes.icon8} />,
+                  }}
+                />
+              ),
+            }}
+            text={{
+              label: (
+                <div className={classes.label5}>
+                  <p className={classes.labelWrapper2}>
+                    <span className={classes.label6}>Inf</span>
+                    <span className={classes.label7}>o</span>
+                    <span className={classes.label8}>rme</span>
+                  </p>
+                </div>
+              ),
+            }}
+          />
+        </div>
+      </div>
       <Keyboard_backspace className={classes.keyboard_backspace} />
       <Vector className={classes.vector} />
-      <div className={classes.frame14}>
-        <div className={classes.group25}>
+      <div className={classes.frame15}>
+        <div className={classes.group26}>
           <div className={classes.fechaInicio}>Fecha Inicio</div>
           <div className={classes.fechaFin}>Fecha Fin</div>
           <div className={classes.numeroDeTareas}>Numero de Tareas</div>
         </div>
-        <div className={classes.group22}>
+        <div className={classes.group27}>
           <TextField_StyleOutlinedStateEn
             className={classes.textField2}
             classes={{ textField: classes.textField }}
@@ -185,11 +176,11 @@ export const Proyectos: FC<Props> = memo(function Proyectos(props = {}) {
             }}
           />
         </div>
-        <div className={classes.group24}>
+        <div className={classes.group28}>
           <div className={classes.estadoProyecto}>Estado Proyecto</div>
           <div className={classes.avance}>Avance </div>
         </div>
-        <div className={classes.group23}>
+        <div className={classes.group29}>
           <TextField_StyleOutlinedStateEn
             className={classes.textField8}
             classes={{ textField: classes.textField7 }}
@@ -219,7 +210,7 @@ export const Proyectos: FC<Props> = memo(function Proyectos(props = {}) {
           <ListItemProyecto />
           <div className={classes.listItemProyecto}>
             <BuildingBlocksStateLayer1Enabl className={classes.stateLayerOverlay} />
-            <div className={classes.stateLayer5}>
+            <div className={classes.stateLayer6}>
               <div className={classes.content}>
                 <div className={classes.headline2}>Nombre</div>
                 <div className={classes.headline3}>Acciones</div>

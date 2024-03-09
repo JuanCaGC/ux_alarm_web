@@ -6,8 +6,8 @@ import { BuildingBlocksStateLayer1Enabl } from '../BuildingBlocksStateLayer1Enab
 import { HorizontalFullWidth } from '../HorizontalFullWidth/HorizontalFullWidth';
 import { Info_StyleOutlined } from '../Info_StyleOutlined/Info_StyleOutlined';
 import classes from './ListItemProyecto.module.css';
-import { StatsIcon } from './StatsIcon';
-import { VectorIcon } from './VectorIcon';
+import { StatsIcon } from './StatsIcon.js';
+import { VectorIcon } from './VectorIcon.js';
 
 interface Props {
   className?: string;
@@ -18,7 +18,7 @@ interface Props {
     headline?: ReactNode;
   };
 }
-/* @figmaId 38:1408 */
+/* @figmaId 1:4677 */
 export const ListItemProyecto: FC<Props> = memo(function ListItemProyecto(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>

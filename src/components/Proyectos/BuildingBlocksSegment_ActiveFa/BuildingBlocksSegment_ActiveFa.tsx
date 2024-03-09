@@ -4,14 +4,14 @@ import type { FC, ReactNode } from 'react';
 import resets from '../../_resets.module.css';
 import { Icons1 } from '../Icons1/Icons1';
 import classes from './BuildingBlocksSegment_ActiveFa.module.css';
-import { Icon } from './Icon';
+import { Icon } from './Icon.js';
 
 interface Props {
   className?: string;
   classes?: {
-    root?: string;
     stateLayer?: string;
     container?: string;
+    root?: string;
   };
   swap?: {
     icon?: ReactNode;

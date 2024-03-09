@@ -1,56 +1,69 @@
-.icon {
-  width: 100%;
-  height: 100%;
-}
-.navigationRail.navigationRail {
-  left: 0;
-  top: 154px;
-  width: 151px;
-  height: 746px;
-  background-color: #433e3f;
-  box-shadow: 5px 0px 4px 0px #433e3f;
-}
-.menuFab.menuFab {
-  height: 108px;
-}
-.menu.menu.menu {
+.menu.menu {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
   place-content: initial;
   align-items: initial;
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.container.container.container {
+.container.container {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.stateLayer.stateLayer.stateLayer {
+.stateLayer.stateLayer {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.iconsMenu_24px.iconsMenu_24px.iconsMenu_24px {
+.iconsMenu_24px.iconsMenu_24px {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.icon2 {
+.icon {
   width: 100%;
   height: 100%;
 }
-.destinations.destinations {
+.fAB.fAB {
+  background-color: initial;
+  box-shadow: initial;
+}
+.stateLayer2.stateLayer2 {
+  align-self: initial;
+  padding: initial;
+}
+.icon3.icon3.icon3 {
+  position: initial;
+}
+.icon2.icon2.icon2 {
+  position: initial;
+  top: initial;
+  right: initial;
+  bottom: initial;
+  left: initial;
+}
+.icon5.icon5 {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
-  place-content: initial;
 }
-.segment1.segment1 {
+.calendar_month.calendar_month {
+  right: 0;
+  bottom: 0;
+  width: initial;
+  height: initial;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.segment2.segment2 {
   width: initial;
   height: initial;
   flex: 1;
@@ -63,25 +76,19 @@
   flex: 1;
   align-self: stretch;
 }
-.stateLayer2.stateLayer2 {
+.stateLayer3.stateLayer3 {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.icon4.icon4 {
+.icon7.icon7 {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.calendar_month.calendar_month {
-  right: 0;
-  bottom: 0;
-  width: initial;
-  height: initial;
-}
-.icon3 {
+.icon6 {
   width: 100%;
   height: 100%;
 }
@@ -99,7 +106,7 @@
   flex-shrink: 1;
 }
 .label2 {
-  color: #999;
+  color: #ec6449;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -108,7 +115,7 @@
   letter-spacing: 0.5px;
 }
 .label3 {
-  color: #999;
+  color: #ec6449;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -116,7 +123,7 @@
     'Liberation Sans', sans-serif;
 }
 .label4 {
-  color: #999;
+  color: #ec6449;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -124,30 +131,32 @@
     'Liberation Sans', sans-serif;
   letter-spacing: 0.5px;
 }
-.segment2.segment2.segment2 {
+.segment3.segment3 {
+  width: initial;
   height: initial;
   flex: 1;
+  align-self: stretch;
   align-items: initial;
 }
-.container3.container3.container3 {
+.container3.container3 {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.stateLayer3.stateLayer3.stateLayer3 {
+.stateLayer4.stateLayer4 {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.icon6.icon6 {
+.icon9.icon9 {
   width: initial;
   height: initial;
   flex: 1;
   align-self: stretch;
 }
-.icon5 {
+.icon8 {
   width: 100%;
   height: 100%;
 }
@@ -165,7 +174,7 @@
   flex-shrink: 1;
 }
 .label6 {
-  color: #fc8653;
+  color: #ec6449;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -174,7 +183,7 @@
   letter-spacing: 0.5px;
 }
 .label7 {
-  color: #fc8653;
+  color: #ec6449;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -182,73 +191,7 @@
     'Liberation Sans', sans-serif;
 }
 .label8 {
-  color: #fc8653;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: 0.5px;
-}
-.segment3.segment3.segment3 {
-  height: initial;
-  flex: 1;
-  align-items: initial;
-}
-.container4.container4.container4 {
-  width: initial;
-  height: initial;
-  flex: 1;
-  align-self: stretch;
-}
-.stateLayer4.stateLayer4.stateLayer4 {
-  width: initial;
-  height: initial;
-  flex: 1;
-  align-self: stretch;
-}
-.icon8.icon8 {
-  width: initial;
-  height: initial;
-  flex: 1;
-  align-self: stretch;
-}
-.icon7 {
-  width: 100%;
-  height: 100%;
-}
-.label9 {
-  height: min-content;
-  align-self: stretch;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-}
-.labelWrapper3 {
-  font-size: 24px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  flex-shrink: 1;
-}
-.label10 {
-  color: #999;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: 0.5px;
-}
-.label11 {
-  color: #999;
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 500;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-}
-.label12 {
-  color: #999;
+  color: #ec6449;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
@@ -387,17 +330,104 @@
   flex-direction: column;
   transform: translateX(-50%);
 }
-.frame14 {
+.navigationRail {
   position: absolute;
-  left: 233px;
-  top: 172px;
+  left: 0;
+  top: 154px;
+  width: 148px;
+  height: 746px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 44px 0 56px;
+  outline: solid 1px #ec6449;
+  outline-offset: -1px;
+  overflow: hidden;
+}
+.menuFab {
+  width: 80px;
+  height: 108px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.destinations {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+}
+.segment1 {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 2px 4px;
+}
+.container4 {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.stateLayer5 {
+  flex: 1;
+  align-self: stretch;
+  padding: 4px 16px;
+}
+.label9 {
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.labelWrapper3 {
+  font-size: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label10 {
+  color: #ec6449;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+.label11 {
+  color: #ec6449;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label12 {
+  color: #ec6449;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+.frame15 {
+  position: absolute;
+  left: 193px;
+  top: 167px;
   width: min-content;
   height: min-content;
   flex-direction: column;
   align-items: flex-start;
   gap: 15px;
 }
-.group25 {
+.group26 {
   position: relative;
   width: 965px;
   height: 35px;
@@ -456,12 +486,12 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.group22 {
+.group27 {
   position: relative;
   width: 965px;
   height: 56px;
 }
-.group24 {
+.group28 {
   position: relative;
   width: 473px;
   height: 41px;
@@ -502,7 +532,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.group23 {
+.group29 {
   position: relative;
   width: 966px;
   height: 60px;
@@ -522,10 +552,9 @@
   height: 56px;
   flex-direction: column;
   align-items: center;
-  border-radius: 50px;
   background-color: #fff;
 }
-.stateLayer5 {
+.stateLayer6 {
   flex: 1;
   align-self: stretch;
   align-items: center;

@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react';
 
 import resets from '../../_resets.module.css';
 import classes from './Icons1.module.css';
-import { Icons1Icon } from './Icons1Icon';
+import { Icons1Icon } from './Icons1Icon.js';
 
 interface Props {
   className?: string;

@@ -3,7 +3,7 @@ import type { FC } from 'react';
 
 import resets from '../../_resets.module.css';
 import classes from './Vector.module.css';
-import { VectorIcon } from './VectorIcon';
+import { VectorIcon } from './VectorIcon.js';
 
 interface Props {
   className?: string;
