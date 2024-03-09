@@ -1,0 +1,91 @@
+.textField2.textField2 {
+  left: 522px;
+  top: 408px;
+  width: 396px;
+  outline: solid 0 #ccc;
+  outline-offset: 0;
+}
+.textField.textField {
+  z-index: 0;
+}
+.button.button {
+  left: calc(50% - -0.5px);
+  top: 509px;
+  width: 233px;
+  height: 80px;
+  outline: solid 1px #ccc;
+  border-radius: 12px;
+  transform: translateX(-50%);
+}
+.stateLayer.stateLayer {
+  background-color: #ec6449;
+}
+.labelText {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.root {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  background-color: #000000db;
+  overflow: hidden;
+}
+.rECUPERARCONTRASENA {
+  color: #fff;
+  font-size: 57px;
+  line-height: 64px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.25px;
+  position: absolute;
+  left: calc(50% - 2px);
+  top: 45px;
+  width: 758px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.rectangle8 {
+  position: absolute;
+  left: 446px;
+  top: 252px;
+  width: 544px;
+  height: 374px;
+  border-radius: 25px;
+  background-color: #433e3f;
+  box-shadow: 0px 4px 4px 0px #0000004d;
+}
+.correoElectronico {
+  color: #fff;
+  font-size: 45px;
+  line-height: 52px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 522px;
+  top: 331px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}

@@ -1,0 +1,66 @@
+.root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 210px;
+  height: 56px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 4px 4px 0 0;
+}
+.textField {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  outline: solid 1px #79747e;
+  outline-offset: -1px;
+  border-radius: 4px;
+}
+.stateLayer {
+  z-index: 0;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 4px 0 4px 16px;
+  border-radius: 4px 4px 0 0;
+}
+.content {
+  height: 48px;
+  flex: 1;
+  flex-direction: column;
+  place-content: center;
+  align-items: flex-start;
+  padding: 4px 0;
+}
+.labelText {
+  width: min-content;
+  height: min-content;
+}
+.labelText2 {
+  color: #49454f;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.supportingText {
+  width: 210px;
+  height: 20px;
+  align-items: flex-start;
+  padding: 4px 16px 0;
+}
+.supportingText2 {
+  color: #49454f;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}

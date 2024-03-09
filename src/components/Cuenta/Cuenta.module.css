@@ -1,0 +1,162 @@
+.textField2.textField2 {
+  left: 522px;
+  top: 323px;
+  width: 396px;
+  outline: solid 0 #ccc;
+  outline-offset: 0;
+}
+.textField.textField {
+  z-index: 0;
+  outline: solid 1px #999;
+}
+.textField4.textField4 {
+  left: 522px;
+  top: 494.0001px;
+  width: 396px;
+  outline: solid 0 #ccc;
+  outline-offset: 0;
+}
+.textField3.textField3 {
+  z-index: 0;
+  outline: solid 1px #999;
+}
+.keyboard_backspace.keyboard_backspace {
+  left: 2.3611%;
+  right: 92.0833%;
+  top: 5%;
+  bottom: 86.1111%;
+  width: initial;
+  height: initial;
+}
+.buttonc.buttonc {
+  left: calc(50% - -129.5px);
+  top: 680px;
+  width: 245px;
+  height: 80px;
+  outline: initial;
+  outline-offset: initial;
+  border-radius: 12px;
+  background-color: #ec6449;
+  transform: translateX(-50%);
+}
+.labelText {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.button.button {
+  left: 468px;
+  top: 680px;
+  width: 245px;
+  height: 80px;
+  outline: initial;
+  outline-offset: initial;
+  border-radius: 12px;
+}
+.stateLayer.stateLayer {
+  background-color: #999;
+}
+.cambiar {
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.1px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.root {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0;
+  background-color: #000000db;
+  overflow: hidden;
+}
+.mICUENTA {
+  color: #fff;
+  font-size: 57px;
+  line-height: 64px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.25px;
+  position: absolute;
+  left: 522px;
+  top: 45px;
+  width: 396px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rectangle8 {
+  position: absolute;
+  left: 453px;
+  top: 169px;
+  width: 533px;
+  height: 673px;
+  border-radius: 25px;
+  background-color: #433e3f;
+  box-shadow: 0px 4px 4px 0px #0000004d;
+}
+.nombre {
+  color: #fff;
+  font-size: 45px;
+  line-height: 52px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 522px;
+  top: 254px;
+  width: 283px;
+  height: min-content;
+  flex-direction: column;
+}
+.correoElectronico {
+  color: #fff;
+  font-size: 45px;
+  line-height: 52px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 522px;
+  top: 424px;
+  width: 396px;
+  height: min-content;
+  flex-direction: column;
+}
+.deseaCambiarSuContrasena {
+  color: #ec6449;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: calc(50% - -0.5px);
+  top: 595.0001px;
+  width: 561px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+}

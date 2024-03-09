@@ -1,0 +1,71 @@
+.menu.menu {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.fAB.fAB {
+  align-self: flex-start;
+}
+.segment1.segment1 {
+  width: initial;
+  align-self: stretch;
+}
+.segment2.segment2 {
+  width: initial;
+  align-self: stretch;
+}
+.segment3.segment3 {
+  width: initial;
+  align-self: stretch;
+}
+.segment4.segment4 {
+  width: min-content;
+}
+.segment5.segment5 {
+  width: initial;
+  align-self: stretch;
+}
+.segment6.segment6 {
+  width: initial;
+  align-self: stretch;
+}
+.segment7.segment7 {
+  width: initial;
+  align-self: stretch;
+}
+.root {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 80px;
+  height: 900px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 44px 0 56px;
+  overflow: hidden;
+}
+.menuFab {
+  width: 80px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.fABElevationOverride {
+  width: min-content;
+  height: min-content;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.destinations {
+  width: 80px;
+  height: min-content;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+}
