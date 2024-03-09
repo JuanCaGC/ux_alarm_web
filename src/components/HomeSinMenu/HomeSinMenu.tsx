@@ -5,7 +5,7 @@ import resets from '../_resets.module.css';
 import { Divider } from './Divider/Divider';
 import { Frame10 } from './Frame10/Frame10';
 import classes from './HomeSinMenu.module.css';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
 import { Keyboard_backspace } from './Keyboard_backspace/Keyboard_backspace';
 import { NavigationRail_AlignmentTop } from './NavigationRail_AlignmentTop/NavigationRail_AlignmentTop';
 import { Vector } from './Vector/Vector';

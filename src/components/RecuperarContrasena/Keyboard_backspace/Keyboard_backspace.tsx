@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import resets from '../../_resets.module.css';
 import { Keyboard_backspace_StyleOutlin } from '../Keyboard_backspace_StyleOutlin/Keyboard_backspace_StyleOutlin';
 import classes from './Keyboard_backspace.module.css';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

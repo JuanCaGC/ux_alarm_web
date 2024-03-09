@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react';
 
 import resets from '../../_resets.module.css';
 import classes from './Divider.module.css';
-import { DividerIcon } from './DividerIcon.js';
+import { DividerIcon } from './DividerIcon';
 
 interface Props {
   className?: string;

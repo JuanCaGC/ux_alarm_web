@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import resets from '../../_resets.module.css';
 import { Icons1 } from '../Icons1/Icons1';
 import classes from './BuildingBlocksSegment_ActiveTr.module.css';
-import { Icon } from './Icon.js';
+import { Icon } from './Icon';
 
 interface Props {
   className?: string;

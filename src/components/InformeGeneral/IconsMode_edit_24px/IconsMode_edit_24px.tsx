@@ -3,7 +3,7 @@ import type { FC, ReactNode } from 'react';
 
 import resets from '../../_resets.module.css';
 import classes from './IconsMode_edit_24px.module.css';
-import { IconsMode_edit_24pxIcon } from './IconsMode_edit_24pxIcon.js';
+import { IconsMode_edit_24pxIcon } from './IconsMode_edit_24pxIcon';
 
 interface Props {
   className?: string;

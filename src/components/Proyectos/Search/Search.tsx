@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import resets from '../../_resets.module.css';
 import { Search_StyleOutlined } from '../Search_StyleOutlined/Search_StyleOutlined';
 import classes from './Search.module.css';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

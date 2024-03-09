@@ -7,7 +7,7 @@ import { BuildingBlocksSegment_ActiveTr } from '../BuildingBlocksSegment_ActiveT
 import { FAB_StyleTertiaryStateEnabled } from '../FAB_StyleTertiaryStateEnabled/FAB_StyleTertiaryStateEnabled';
 import { IconButton_StyleStandardStateE } from '../IconButton_StyleStandardStateE/IconButton_StyleStandardStateE';
 import { IconsMenu_24px } from '../IconsMenu_24px/IconsMenu_24px';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
 import classes from './NavigationRail_AlignmentTop.module.css';
 
 interface Props {

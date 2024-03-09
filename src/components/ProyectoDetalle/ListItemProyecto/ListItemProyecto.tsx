@@ -6,8 +6,8 @@ import { BuildingBlocksStateLayer1Enabl } from '../BuildingBlocksStateLayer1Enab
 import { HorizontalFullWidth } from '../HorizontalFullWidth/HorizontalFullWidth';
 import { Info_StyleOutlined } from '../Info_StyleOutlined/Info_StyleOutlined';
 import classes from './ListItemProyecto.module.css';
-import { StatsIcon } from './StatsIcon.js';
-import { VectorIcon } from './VectorIcon.js';
+import { StatsIcon } from './StatsIcon';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

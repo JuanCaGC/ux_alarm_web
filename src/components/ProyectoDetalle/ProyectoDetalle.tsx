@@ -11,8 +11,8 @@ import { Cleaning_services } from './Cleaning_services/Cleaning_services';
 import { Divider } from './Divider/Divider';
 import { Home } from './Home/Home';
 import { HorizontalFullWidth } from './HorizontalFullWidth/HorizontalFullWidth';
-import { IconsCheck_smallIcon } from './IconsCheck_smallIcon.js';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
+import { IconsCheck_smallIcon } from './IconsCheck_smallIcon';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
 import { Keyboard_backspace } from './Keyboard_backspace/Keyboard_backspace';
 import { ListItemProyecto } from './ListItemProyecto/ListItemProyecto';
 import { NavigationRail_AlignmentTop } from './NavigationRail_AlignmentTop/NavigationRail_AlignmentTop';
@@ -20,9 +20,9 @@ import classes from './ProyectoDetalle.module.css';
 import { Search } from './Search/Search';
 import { TextField_StyleOutlinedStateEn } from './TextField_StyleOutlinedStateEn/TextField_StyleOutlinedStateEn';
 import { Vector } from './Vector/Vector';
-import { VectorIcon2 } from './VectorIcon2.js';
-import { VectorIcon3 } from './VectorIcon3.js';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorIcon2 } from './VectorIcon2';
+import { VectorIcon3 } from './VectorIcon3';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

@@ -8,14 +8,14 @@ import { BuildingBlocksSegment_ActiveFa } from './BuildingBlocksSegment_ActiveFa
 import { Calendar_month } from './Calendar_month/Calendar_month';
 import { Divider } from './Divider/Divider';
 import { Home } from './Home/Home';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
 import classes from './InformeGeneral.module.css';
 import { Keyboard_backspace } from './Keyboard_backspace/Keyboard_backspace';
 import { NavigationRail_AlignmentTop } from './NavigationRail_AlignmentTop/NavigationRail_AlignmentTop';
 import { Vector } from './Vector/Vector';
-import { VectorIcon2 } from './VectorIcon2.js';
-import { VectorIcon3 } from './VectorIcon3.js';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorIcon2 } from './VectorIcon2';
+import { VectorIcon3 } from './VectorIcon3';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

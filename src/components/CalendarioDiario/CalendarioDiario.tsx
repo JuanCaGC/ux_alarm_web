@@ -10,14 +10,14 @@ import classes from './CalendarioDiario.module.css';
 import { Divider } from './Divider/Divider';
 import { EndSlot_Property1Default } from './EndSlot_Property1Default/EndSlot_Property1Default';
 import { Home } from './Home/Home';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
 import { Keyboard_backspace } from './Keyboard_backspace/Keyboard_backspace';
 import { NavigationRail_AlignmentTop } from './NavigationRail_AlignmentTop/NavigationRail_AlignmentTop';
 import { Slot_Property1Default } from './Slot_Property1Default/Slot_Property1Default';
 import { Vector } from './Vector/Vector';
-import { VectorIcon2 } from './VectorIcon2.js';
-import { VectorIcon3 } from './VectorIcon3.js';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorIcon2 } from './VectorIcon2';
+import { VectorIcon3 } from './VectorIcon3';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

@@ -10,16 +10,16 @@ import { Checkboxes1 } from './Checkboxes1/Checkboxes1';
 import classes from './DetalleTarea.module.css';
 import { Divider } from './Divider/Divider';
 import { Home } from './Home/Home';
-import { IconsCheck_smallIcon } from './IconsCheck_smallIcon.js';
-import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon.js';
+import { IconsCheck_smallIcon } from './IconsCheck_smallIcon';
+import { IconsMenu_24pxIcon } from './IconsMenu_24pxIcon';
 import { Keyboard_backspace } from './Keyboard_backspace/Keyboard_backspace';
 import { NavigationRail_AlignmentTop } from './NavigationRail_AlignmentTop/NavigationRail_AlignmentTop';
 import { TextField_StyleOutlinedStateEn } from './TextField_StyleOutlinedStateEn/TextField_StyleOutlinedStateEn';
 import { Vector } from './Vector/Vector';
-import { VectorAddIcon } from './VectorAddIcon.js';
-import { VectorIcon2 } from './VectorIcon2.js';
-import { VectorIcon3 } from './VectorIcon3.js';
-import { VectorIcon } from './VectorIcon.js';
+import { VectorAddIcon } from './VectorAddIcon';
+import { VectorIcon2 } from './VectorIcon2';
+import { VectorIcon3 } from './VectorIcon3';
+import { VectorIcon } from './VectorIcon';
 
 interface Props {
   className?: string;

@@ -4,7 +4,7 @@ import type { FC } from 'react';
 import resets from '../../_resets.module.css';
 import { IconsMode_edit_24px } from '../IconsMode_edit_24px/IconsMode_edit_24px';
 import classes from './FAB_StyleTertiaryStateEnabled.module.css';
-import { Icon } from './Icon.js';
+import { Icon } from './Icon';
 
 interface Props {
   className?: string;

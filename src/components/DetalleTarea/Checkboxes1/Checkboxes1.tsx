@@ -3,7 +3,7 @@ import type { FC } from 'react';
 
 import resets from '../../_resets.module.css';
 import classes from './Checkboxes1.module.css';
-import { IconsCheck_smallIcon } from './IconsCheck_smallIcon.js';
+import { IconsCheck_smallIcon } from './IconsCheck_smallIcon';
 
 interface Props {
   className?: string;
