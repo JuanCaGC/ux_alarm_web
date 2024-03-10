@@ -94,3 +94,21 @@ body{
     background-color: #333; 
     color: #333; 
 }
+
+.labelFiltro{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.contResumen{
+    padding: 0.5rem 10rem ;
+    width: fit-content;
+
+}
+
+.formResumen{
+    width: 600px;
+}
+

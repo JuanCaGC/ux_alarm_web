@@ -47,7 +47,7 @@ function Proyectos() {
                     </Navbar>
                 </Col>
                 <Col>
-                   <ListaProyectos></ListaProyectos>
+                    <ListaProyectos></ListaProyectos>
                 </Col>
             </Row>
         </div>

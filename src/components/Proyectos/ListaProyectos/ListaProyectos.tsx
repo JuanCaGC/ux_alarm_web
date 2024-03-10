@@ -3,7 +3,8 @@ import { Container, Table, Row, Col } from 'react-bootstrap';
 import './styles.css';
 import { DashIcon } from './DashIcon';
 import { Infoicon } from './InfoIcon';
-import FiltroProyecto from './FiltroProyecto'; // Importa el componente FiltroProyecto
+import FiltroProyecto from './FiltroProyecto'; 
+import { Link } from 'react-router-dom';
 
 const proyectos = [
   { nombre: 'Proyecto 1' },
@@ -32,7 +33,11 @@ return (
                 <td>
                 <div className="actions">
                     <span><DashIcon /></span>
-                    <span style={{paddingTop:'5px'}}><Infoicon /></span>
+                    <span style={{paddingTop:'5px'}}>
+                        <Link to={`/proyectos/detalle/${index}`}>
+                            <Infoicon />
+                        </Link>
+                    </span>
                 </div>
                 </td>
             </tr>

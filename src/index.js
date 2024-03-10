@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import './resets.css';
 import Proyectos from './components/Proyectos/Proyectos';
 import DetalleProyecto from './components/ProyectoDetalle/DetalleProyecto';
+import DetalleTarea from './components/DetalleTarea/DetalleTarea';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="proyectos" element={<Proyectos/>} />
-        <Route path="proyectos/detalle" element={<DetalleProyecto/>} />
+        <Route path="proyectos/detalle/:id" element={<DetalleProyecto/>} />
+        <Route path="proyectos/detalle/tarea/:id" element={<DetalleTarea/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
