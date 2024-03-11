@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
+import { Link } from 'react-router-dom';
 
 import resets from '../_resets.module.css';
 import { Button_StyleOutlinedStateEnabl } from './Button_StyleOutlinedStateEnabl/Button_StyleOutlinedStateEnabl';
@@ -19,7 +20,7 @@ interface Props {
 /* @figmaId 1:4430 */
 export const InicioDeSesion: FC<Props> = memo(function InicioDeSesion(props = {}) {
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={classes.root}>
       <div className={classes.rectangle8}></div>
       <div className={classes.iNGRESO}>INGRESO</div>
       <Divider />
@@ -46,13 +47,19 @@ export const InicioDeSesion: FC<Props> = memo(function InicioDeSesion(props = {}
         className={classes.button}
         classes={{ stateLayer: classes.stateLayer }}
         text={{
-          labelText: <div className={classes.labelText}>Login</div>,
+          labelText: ( <Link to="/proyectos" className={classes.link}>
+            <div className={classes.labelText}>Login</div>
+            </Link>),
         }}
       />
       <Button_StyleOutlinedStateEnabl
         className={classes.button2}
         text={{
-          labelText: <div className={classes.labelText2}>Registro</div>,
+          
+          labelText:(<Link to="/registro" className={classes.link}> 
+          <div className={classes.labelText2}>Registro</div>
+          </Link>
+          ),
         }}
       />
     </div>

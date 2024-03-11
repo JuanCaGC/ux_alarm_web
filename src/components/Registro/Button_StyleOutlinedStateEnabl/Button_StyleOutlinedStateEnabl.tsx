@@ -8,6 +8,7 @@ interface Props {
   className?: string;
   classes?: {
     root?: string;
+    stateLayer?: string;
   };
   text?: {
     labelText?: ReactNode;
@@ -19,7 +20,7 @@ export const Button_StyleOutlinedStateEnabl: FC<Props> = memo(function Button_St
     <button
       className={`${resets.storybrainResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}
     >
-      <div className={classes.stateLayer}>
+      <div className={`${props.classes?.stateLayer || ''} ${classes.stateLayer}`}>
         {props.text?.labelText != null ? props.text?.labelText : <div className={classes.labelText}>Label</div>}
       </div>
     </button>

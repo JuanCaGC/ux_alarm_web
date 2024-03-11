@@ -9,6 +9,7 @@ import './resets.css';
 import Proyectos from './components/Proyectos/Proyectos';
 import DetalleProyecto from './components/ProyectoDetalle/DetalleProyecto';
 import DetalleTarea from './components/DetalleTarea/DetalleTarea';
+import Registro from './components/Registro/Registro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="registro" element={<Registro/>} />
         <Route path="proyectos" element={<Proyectos/>} />
         <Route path="proyectos/detalle/:id" element={<DetalleProyecto/>} />
         <Route path="proyectos/detalle/tarea/:id" element={<DetalleTarea/>} />
