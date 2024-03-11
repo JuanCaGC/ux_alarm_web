@@ -61,7 +61,7 @@ function DetalleProyecto() {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className='menu'>
                                 <Nav.Link href="#"  className ='menuItem' style={{color:'#EC6449'}}><CalendarIcon className='iconComponent'></CalendarIcon> Calendario</Nav.Link>
-                                <Nav.Link href="#" className = 'menuItem' style={{color:'#EC6449'}}><ProjectsIcon></ProjectsIcon> Proyectos</Nav.Link>
+                                <Nav.Link href="http://localhost:3000/proyectos" className = 'menuItem' style={{color:'#EC6449'}}><ProjectsIcon></ProjectsIcon> Proyectos</Nav.Link>
                                 <Nav.Link href="#" className = 'menuItem' style={{color:'#EC6449'}}><DashIcon></DashIcon> Informe</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

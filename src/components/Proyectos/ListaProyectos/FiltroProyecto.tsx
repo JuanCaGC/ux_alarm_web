@@ -40,10 +40,10 @@ function FiltroProyecto() {
             </Form.Group>
         </Col>
         <Col className="colB" style={{padding:"1rem 1rem"}} >
-            <Button variant="primary" type="submit" className='botonFiltro'>
+            <Button variant="primary" className='botonFiltro'>
                 <LookIcon></LookIcon>
             </Button>
-            <Button variant="primary" type="submit" className='botonFiltro'>
+            <Button variant="primary" className='botonFiltro'>
                 <CleanIcon></CleanIcon>
             </Button>
         </Col>

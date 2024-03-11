@@ -37,10 +37,10 @@ function FiltroTareas() {
         </Col>
         <Col>  </Col>
         <Col className="colB" style={{padding:"1rem 1rem"}} >
-            <Button variant="primary" type="submit" className='botonFiltro'>
+            <Button variant="primary" className='botonFiltro' onClick={() => {}}>
                 <LookIcon></LookIcon>
             </Button>
-            <Button variant="primary" type="submit" className='botonFiltro'>
+            <Button variant="primary" className='botonFiltro'>
                 <CleanIcon></CleanIcon>
             </Button>
         </Col>

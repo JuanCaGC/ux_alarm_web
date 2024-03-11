@@ -112,3 +112,69 @@ body{
     width: 600px;
 }
 
+
+.commentsTittle{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 0.5rem 0.5rem ;
+    padding-left: 0rem;
+}
+
+
+.rowComments{
+    margin-top: 4rem;
+
+}
+
+.commentItem{
+    background: #433E3F;
+    border: 1px solid #999999 !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0.2rem 0.5rem ;
+    border-radius: 4px;
+    width: 99%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.modal-custom .modal-header,
+.modal-custom .modal-footer,
+.modal-custom .modal-body {
+  background-color: #cccccc;
+  border: none;
+}
+
+.modal-titulo{
+    font-size: 2rem !important;
+}
+
+
+.modal-custom .modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-custom .btn-primary {
+  background-color: #EC6449;
+  border: none;
+}
+
+.modal-custom .btn-secondary {
+  background-color: #999999;
+  border: none;
+}
+
+.modal-custom {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
