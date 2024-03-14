@@ -1,3 +1,23 @@
+# Alarama Web
+Se utiliza versión de react:
+    "version": "0.1.0",
+Dependencias usadas
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+recomendaciones de uso:
+    Abrir directamente en VScode
+    correr usando comadno npm start
+    seguir todas las practicas standar de ejecución de un proyecto de react
+    revisar instalaciones como: react-bootstrap, react-router-dom y react-dom"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
